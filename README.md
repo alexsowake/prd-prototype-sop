@@ -20,13 +20,21 @@
 
 ## 安装
 
-把整个目录放进你的 Claude Code skills 文件夹：
+**方式一：终端一行命令**
 
 ```bash
-git clone https://github.com/alexsowake/prd-prototype-sop.git ~/.claude/skills/prd-prototype-sop
+npx skills add alexsowake/prd-prototype-sop -g
 ```
 
-重启 Claude Code 后，输入 `/prd-prototype-sop` 即可启动。
+**方式二：直接让大模型帮你装**
+
+把下面这句话发给 Claude Code：
+
+```
+帮我安装这个 SKILL：https://github.com/alexsowake/prd-prototype-sop
+```
+
+安装完成后，重启 Claude Code，输入 `/prd-prototype-sop` 即可启动。
 
 **前置要求**：[Claude Code](https://claude.ai/code) CLI 已安装并登录。其他依赖（`enhance-prompt` 等）Skill 启动时会自动检测并安装，无需手动配置。
 
