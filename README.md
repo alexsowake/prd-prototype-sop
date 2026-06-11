@@ -34,9 +34,6 @@ npx skills add alexsowake/prd-prototype-sop -g
 帮我安装这个 SKILL：https://github.com/alexsowake/prd-prototype-sop
 ```
 
-安装完成后，重启 Claude Code，输入 `/prd-prototype-sop` 即可启动。
-
-**前置要求**：[Claude Code](https://claude.ai/code) CLI 已安装并登录。其他依赖（`enhance-prompt` 等）Skill 启动时会自动检测并安装，无需手动配置。
 
 ---
 
